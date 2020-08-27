@@ -21,8 +21,7 @@
 
 1. Environment can be configured by maven options like (-Denv=dev) . If not configured default is dev.
 2. Browser can be configured by maven options like (-Dbrowser=chrome) and in properties file like (browser=chrome). If nothing is configured default is chrome. Maven options takes priority over properties file.
-3. Simple maven command to run tests  from command line.
-     command line should be opened in project folder
+3. Simple maven command to run tests  from command line  and  the Command line should be opened in project folder.
      
         mvn test  -DsuiteXmlFile=testng.xml  -Denv=dev  -Dbrowser=headless
 4. Testng.xml is used to filter the test cases to run.  Like only regression test or only some module.
@@ -39,7 +38,8 @@
 2. Reports generated under src->test->reports folder . Reports location can be changed from extent.properties under src->main->resources.
 3. Test data can be found under src->test->resources->testData folder.
 4. Properties file under src->main->resources.   properties file are environment specific like : dev.config.properties or qa.config.properties.
-5. testng.xml is under root project folder.        
+5. testng.xml is under root project folder.  
+6. Tests can be found under src->test->java->com->ppro->web->test
 
 -----------------------------------------------------------------------------------------------------
 **Other Features:**
