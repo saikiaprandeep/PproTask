@@ -1,0 +1,16 @@
+*.jar
+*.war
+*.log
+*.class
+*/target/**
+report
+*.iml
+*.idea
+.project
+.metadata
+bin/**
+.classpath
+.settings/
+.loadpath
+*/reports/**
+
